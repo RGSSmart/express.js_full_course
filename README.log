@@ -1,0 +1,10 @@
+HOW TO SETUP MYSQL  - in progress
+
+NAPRAVITI PROJEKAT
+Dodati index.js
+Dodati mysql2
+npm i mysql2 
+
+// npm install jshint
+
+npm install ejs
