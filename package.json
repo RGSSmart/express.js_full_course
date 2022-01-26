@@ -1,0 +1,26 @@
+{
+  "name": "express.js_full_course",
+  "version": "1.0.0",
+  "description": "HOW TO SETUP MYSQL  - in progress",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev":" nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RGSSmart/express.js_full_course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RGSSmart/express.js_full_course/issues"
+  },
+  "homepage": "https://github.com/RGSSmart/express.js_full_course#readme"
+}
