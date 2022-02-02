@@ -1,7 +1,7 @@
 {
-  "name": "express.js_full-course",
+  "name": "express.js_full_course",
   "version": "1.0.0",
-  "description": "HOW TO SETUP MYSQL",
+  "description": "HOW TO SETUP MYSQL  - in progress",
   "main": "index.js",
   "dependencies": {
     "ejs": "^3.1.6",

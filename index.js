@@ -12,11 +12,17 @@ var express = require('express');
 const { getMaxListeners } = require('process');
 var app = express();
 
+app.use(express.static('views'));
 app.set('view engine', 'ejs');
 connection.connect();
 
 app.get('/', (req, res) => {
-    res.render('index');
+
+    connection.query('SELECT * from grad', function (err, rows, fields) {
+        if (err) throw err;
+        res.render('index', { REZULTAT: rows });
+    });
+    
 });
 
 app.get('/ucenici', (req, res) => {
